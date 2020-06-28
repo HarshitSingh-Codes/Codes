@@ -1,0 +1,26 @@
+#include<stsio.h>
+int main()
+{
+int n; 
+printf("Enter a number between 1-5");
+scanf("%d",&n); 
+switch(n)
+case(1):
+prinf("\nFood Item-PIZZA\nPrice-Rs.239");
+break; 
+case(2) :
+printf("\nFood Item-BURGER\nPrice-Rs.129");
+break; 
+case(3):
+printf("\nfood ITEM-PASTA\nPrice-Rs.179");
+break; 
+case(4):
+printf("\nFood Item-FRENCH FRIES\nPrice-Rs.99");
+break;
+case(5):
+printf("\nFood Item-SANDWICH\nPrice-Rs.149");
+break;
+default:
+printf("Wrong Choice");
+return 0; 
+}
