@@ -14,4 +14,5 @@ else if(m<55 && m>=40)
 prinf("\nGrade D");
 else
 prinf("\nGrade E");
+return 0;
 }
